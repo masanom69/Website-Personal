@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>GreyZ Corp - Portofolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <h1>GreyZ Corp</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Beranda</a></li>
+                    <li><a href="#about">Tentang Kami</a></li>
+                    <li><a href="#services">Layanan</a></li>
+                    <li><a href="#contact">Kontak</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <h2>Selamat datang di GreyZ Corp</h2>
+            <p>Solusi Teknologi untuk Bisnis Anda</p>
+            <a href="#contact" class="btn">Hubungi Kami</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>Tentang Kami</h2>
+            <p>GreyZ Corp adalah perusahaan teknologi yang berfokus pada pengembangan solusi digital inovatif untuk membantu bisnis Anda berkembang. Kami menyediakan berbagai layanan mulai dari pengembangan perangkat lunak hingga konsultasi teknologi.</p>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2>Layanan Kami</h2>
+            <div class="service-list">
+                <div class="service">
+                    <h3>Pengembangan Web</h3>
+                    <p>Membangun website yang responsif dan user-friendly.</p>
+                </div>
+                <div class="service">
+                    <h3>Konsultasi Teknologi</h3>
+                    <p>Bantu bisnis Anda mengoptimalkan teknologi untuk hasil maksimal.</p>
+                </div>
+                <div class="service">
+                    <h3>Desain UI/UX</h3>
+                    <p>Merancang pengalaman pengguna yang luar biasa dan desain yang menarik.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Kontak Kami</h2>
+            <form id="contact-form">
+                <label for="name">Nama:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Pesan:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Kirim</button>
+            </form>
+            <div id="form-message"></div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 GreyZ Corp. Semua Hak Dilindungi.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
