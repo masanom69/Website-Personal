@@ -70,7 +70,7 @@ nav ul li a:hover {
 }
 
 .hero h2 {
-    font-size: 3rem;
+    font-size: 2rem;
     margin-bottom: 10px;
     animation: fadeIn 1s ease-out;
 }
